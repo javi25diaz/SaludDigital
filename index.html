@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Salud Digital</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="imagenes/logo.png" alt="Salud Digital">
+            </div>
+            <ul class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="imc.php">IMC</a></li>
+                <li><a href="presion.php">Presión Arterial</a></li>
+                <li><a href="glucosa.php">Glucosa</a></li>
+                <li><a href="#servicios">Calcular</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner principal -->
+    <section id="inicio" class="banner">
+        <img src="imagenes/banner.gif" alt="Banner Principal">
+        <div class="bienvenida">
+            <h1>Bienvenido a Nuestra Plataforma de Salud</h1>
+            <p>Evalúa tu bienestar y toma decisiones informadas sobre tu salud con nuestras herramientas gratuitas y confiables.</p>
+            <button onclick="location.href='#servicios'">Calcular</button>
+            <button onclick="location.href='#beneficios'">Aprende más</button>
+        </div>
+    </section>
+
+    <!-- Servicios de Cálculo -->
+    <section id="servicios" class="servicios">
+        <h2>Servicios de Cálculo de Salud</h2>
+        <div class="servicio">
+            <img src="imagenes/icono-imc.png" alt="IMC">
+            <h3><a href="imc.php">Cálculo de IMC</a></h3>
+            <p>Calcule su índice de masa corporal con base en peso y estatura.</p>
+        </div>
+        <div class="servicio">
+            <img src="imagenes/icono-presion.png" alt="Presión">
+            <h3><a href="presion.php">Monitoreo de Presión Arterial</a></h3>
+            <p>Clasifique su presión según datos sistólicos y diastólicos.</p>
+        </div>
+        <div class="servicio">
+            <img src="imagenes/icono-glucosa.png" alt="Glucosa">
+            <h3><a href="glucosa.php">Análisis de Glucosa en Sangre</a></h3>
+            <p>Obtenga su clasificación según tipo de medición y valor de glucosa.</p>
+        </div>
+    </section>
+
+    <!-- Beneficios -->
+    <section id="beneficios" class="beneficios">
+        <div class="beneficios-contenido">
+            <div class="beneficios-texto">
+                <h2>Beneficios de Monitoreo de Salud Regular</h2>
+                <p>El seguimiento regular de su salud puede prevenir enfermedades y mejorar su calidad de vida.</p>
+                <p><strong>Control IMC:</strong> Ayuda a prevenir enfermedades relacionadas con el sobrepeso o bajo peso.</p>
+                <p><strong>Presión Arterial:</strong> Detecta riesgos de hipertensión o hipotensión a tiempo.</p>
+                <p><strong>Glucosa en sangre:</strong> Permite identificar y manejar condiciones como diabetes.</p>
+                <a href="https://segurossura.com.pa/blog/beneficios-de-la-salud-digital/" class="boton" target="_blank">Ver más</a>
+                
+            </div>
+            <div class="beneficios-imagen">
+                <img src="imagenes/beneficios.png" alt="Tarjetas de beneficios">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="footer-contenido">
+            <div class="footer-logo">
+                <img src="imagenes/logo-footer.png" alt="Logo Salud Digital">
+            </div>
+            <div class="footer-info">
+                <div class="footer-links">
+                    <span>Políticas de Privacidad</span>
+                    <span>Términos de Uso</span>
+                    <span>Configuración de Cookies</span>
+                </div>
+                <div class="footer-copyright">
+                    © 2025 Salud Digital. Todos los derechos reservados.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
